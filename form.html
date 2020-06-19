@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Join us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="formstyle.css">
+     <link rel=" icon" href="favicon.ico">
+  </head>
+  <body>
+    <div class="my-form">
+
+    <span class="caption">JOIN US</span>
+    <form class="join-us" action="index.html" method="post">
+    <table>
+
+      <tr>
+        <td class="head1">
+          <input type="text" name="fname" value="" placeholder="First Name" required>
+        </td>
+        <td class="head2">
+        <input type="text" name="lname" value="" placeholder="Last Name" required>
+       </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+
+              <input type="email" name="emailadd" value="" placeholder="Email: example@abc.com" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="number" name="age" value="" placeholder="age in years" required>
+        </td>
+        <td>
+           <span>Gender:</span>
+            <input type="radio" id="male" name="gender" value="">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="">
+            <label for="other">Other</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <span>have you adoped a pet before </span>
+          <input type="radio" name="yes" value="">
+          <label for="yes">yes</label>
+          <input type="radio" name="no" value="">
+          <label for="no">no</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>already have pets?(bought) </p>
+          <input type="checkbox" name="none" value="">
+          <label for="none">none</label><br>
+          <input type="checkbox" name="dog" value="" >
+          <label for="dog">dog</label><br>
+          <input type="checkbox" name="cat" value="">
+          <label for="cat">cat</label><br>
+          <input type="checkbox" name="bird" value="">
+          <label for="bird">bird</label><br>
+          <input type="checkbox" name="rabbit" value="">
+          <label for="rabbit">rabbit</label><br>
+          <input type="checkbox" name=" hamster" value="">
+          <label for=" hamster"> hamster/guinea pig</label><br>
+          <input type="checkbox" name="barn" value="">
+          <label for="barn">barn animals</label><br>
+          <input type="checkbox" name="others" value="">
+          <label for="others">others</label>
+        </td>
+        <td>
+        <p>list down the animals and their breeds correctly (if any)</p>
+         <textarea name="text" rows="10" cols="32"></textarea>
+        </td>
+      </tr>
+    </table>
+    <a href="#"><button type=" submit" class="btn btn-lg btn-block btn-danger active" name="button">Submit!</button></a>
+    </form>
+   </div>
+
+
+  </body>
+</html>
